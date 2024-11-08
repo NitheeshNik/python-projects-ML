@@ -3,22 +3,16 @@ Packages Used
 
 
 1.Pandas:
-    
-    
-    * Used for data manipulation, loading datasets, and data cleaning. It allows you to create and manipulate data frames, ideal for structured stock market data.
-    
-    
-    *Example use: Loading .csv files, cleaning and exploring data, creating new columns based on calculations.
+* Used for data manipulation, loading datasets, and data cleaning. It allows you to create and manipulate data frames, ideal for structured stock market data.
+  *Example use: Loading .csv files, cleaning and exploring data, creating new columns based on calculations.
 2.NumPy:
-    
-    * Adds support for arrays and mathematical functions. It is useful for performing fast numerical computations.
-   
-    * Example use: Calculating new columns or transformations (e.g., np.where for conditional operations).
+ * Adds support for arrays and mathematical functions. It is useful for performing fast numerical computations.
+* Example use: Calculating new columns or transformations (e.g., np.where for conditional operations).
 
 3.Matplotlib and Seaborn:
 
-   * Used for data visualization. Matplotlib is a versatile plotting library, while Seaborn offers advanced and aesthetically pleasing plots, especially for statistical data.
-   * Example use: Line plots of stock prices, histogram plots of data distributions, correlation heatmaps.
+* Used for data visualization. Matplotlib is a versatile plotting library, while Seaborn offers advanced and aesthetically pleasing plots, especially for statistical data.
+* Example use: Line plots of stock prices, histogram plots of data distributions, correlation heatmaps.
 
 4.Scikit-Learn (sklearn):
 
