@@ -25,16 +25,16 @@ Packages Used
      *  confusion_matrix: For visualizing model accuracy on classification tasks.
 
 5.XGBoost:
-    * A gradient-boosted decision tree library optimized for performance, especially useful for structured data like stock prices.
-    * Example use: Included in the model list for testing against other classifiers to see which one performs best.
+ * A gradient-boosted decision tree library optimized for performance, especially useful for structured data like stock prices.
+ * Example use: Included in the model list for testing against other classifiers to see which one performs best.
 
 6.Prophet:
-    * A time series forecasting library by Facebook, well-suited for stock and financial data with clear trends and seasonality.
-    * Example use: Predicting future prices of Tesla, Microsoft, and Bitcoin by training on historical stock data.
+ * A time series forecasting library by Facebook, well-suited for stock and financial data with clear trends and seasonality.
+ * Example use: Predicting future prices of Tesla, Microsoft, and Bitcoin by training on historical stock data.
 
 7.DateTime:
-    * Manages date and time manipulation, allowing accurate handling of stock data with date stamps.
-    * Example use: Used to define forecasting periods and handle conversions to datetime format for plotting and analysis.
+* Manages date and time manipulation, allowing accurate handling of stock data with date stamps.
+* Example use: Used to define forecasting periods and handle conversions to datetime format for plotting and analysis.
 
     
 Program Overview
@@ -42,11 +42,11 @@ Program Overview
 The project uses historical stock data for Tesla, Bitcoin, and Microsoft to perform analysis and predictions. Here’s the general workflow and logic:
 
 1.Data Exploration and Cleaning:
-    * Loads datasets using Pandas and explores key metrics (mean, median, etc.) and distribution.
-    * Identifies and handles missing values, standardizes date formats, and adds columns for month, day, and year to support time-based analysis.
+* Loads datasets using Pandas and explores key metrics (mean, median, etc.) and distribution.
+* Identifies and handles missing values, standardizes date formats, and adds columns for month, day, and year to support time-based analysis.
 
 2.Feature Engineering:
-    * Derives new features, like:
+   * Derives new features, like:
             * is_quarter_end: Indicates if the date is at the end of a quarter.
             * price differences: Calculates differences between prices (e.g., open-close, low-high) to capture market behavior.
     * Sets up a target variable for classification (e.g., predicting whether the price will go up or down the next day).
